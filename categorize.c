@@ -10,7 +10,7 @@ int main(int agrc, char *argv[]){
        fprintf(stderr, "You need to give 3 arguments!\n") ;
        return 1;
     }
-
+    
     FILE *in;
     if (!(in = fopen("spooky.csv", "r"))){
         fprintf(stderr, "Cannot find the file.\n");
